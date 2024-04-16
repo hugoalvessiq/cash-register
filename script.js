@@ -21,6 +21,7 @@ cash.addEventListener("keydown", function (event) {
   // Check if the key pressed was 'Enter'
   if (event.key === "Enter") {
     checkCashRegister(price, cash, cid)
+    cash.value = "";
   }
 });
 
